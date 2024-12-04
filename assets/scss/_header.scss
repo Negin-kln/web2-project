@@ -1,5 +1,3 @@
-$mainColor:#d35400;
-$navBgColor:#f6ddc6;
 @mixin flex ($display:flex,$justify-content:center,$align-items:center) {
     display: $display;
     justify-content: $justify-content;
@@ -9,11 +7,6 @@ $navBgColor:#f6ddc6;
     width: 80px;
     height: 70px;
 } 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 header{
     width: 100%;
     @include flex(flex,space-evenly,center);

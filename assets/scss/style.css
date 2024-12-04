@@ -2,6 +2,19 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Vazirmatn, sans-serif;
+}
+
+body {
+  direction: rtl;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -82,20 +95,11 @@ nav ul a {
   padding: 0px 15px;
 }
 
-body {
-  direction: rtl;
+main {
+  padding-top: 150px;
 }
-
-* {
-  font-family: Vazirmatn, sans-serif;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
+main .main-top {
+  margin: auto;
 }
 
 footer {
