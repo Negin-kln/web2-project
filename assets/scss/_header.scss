@@ -65,15 +65,14 @@ nav{
     @media screen and (max-width: 745px){
         display: none;
     }
-}
-ul{
-    @include flex();
-    list-style-type: none;
-    a{
-        text-decoration: none;
-        color: $mainColor;
-        font-size: 20px;
-        padding: 0px 15px;
+    ul{
+        @include flex();
+        a{
+            color: $mainColor;
+            font-size: 20px;
+            padding: 0px 15px;
+        }
     }
 }
+
 
