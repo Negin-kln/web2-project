@@ -21,3 +21,11 @@ button{
         }
     }
 }
+.btn3{
+    border: 1px solid $labelColor ;
+        background-color: $inputColor;
+        border-radius: 10px;
+        padding: 5px 20px;
+        font-size: large;
+        color: $labelColor;
+}
