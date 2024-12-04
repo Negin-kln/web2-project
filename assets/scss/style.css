@@ -98,8 +98,23 @@ nav ul a {
 main {
   padding-top: 150px;
 }
-main .main-top {
-  margin: auto;
+main .main-contact__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .main-contact__top .main-contact__top-a a:last-child {
+  color: #d35400;
+}
+main .main-contact__bottom {
+  background-color: lightgray;
+  padding: 40px 100px;
+}
+main .main-contact__bottom .main-contact__bottom-input {
+  background-color: white;
+  border: 2px solid #d35400;
+  padding: 30px;
 }
 
 footer {

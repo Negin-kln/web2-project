@@ -1,6 +1,19 @@
 main{
     padding-top: 150px;  
-    .main-top{
-        margin: auto;
+    .main-contact__top{
+        @include flex ();
+        flex-direction: column;
+        .main-contact__top-a a:last-child{
+            color: $mainColor;
+        }
+    }
+    .main-contact__bottom{
+        background-color: lightgray;
+        padding: 40px 100px;
+        .main-contact__bottom-input{
+            background-color: white;
+            border: 2px solid $mainColor;
+            padding: 30px;
+        }
     }
 }
