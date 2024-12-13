@@ -95,8 +95,44 @@ nav ul a {
   padding: 0px 15px;
 }
 
-main .main-index .main-index__img {
-  width: 100%;
+main .main-index__top {
+  background-image: url(../image/main/main.jpg);
+  background-position: center;
+  height: 250px;
+  margin-bottom: 55px;
+}
+main .main-index__top h1 {
+  color: #e28446;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+main .main-index__bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 20px;
+}
+main .main-index__bottom .main-index__bottom-box a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .main-index__bottom .main-index__bottom-box a img {
+  width: 200px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 2px solid #e28446;
+}
+main .main-index__bottom .main-index__bottom-box a img:hover {
+  border: 2px dashed #A3CB38;
+}
+main .main-index__bottom .main-index__bottom-box .main-index__bottom-title {
+  color: #006266;
+  padding-top: 10px;
+  font-size: 20px;
 }
 
 main {
@@ -318,4 +354,150 @@ button.btn2 a {
   padding: 5px 20px;
   font-size: large;
   color: #006266;
+}
+
+.btn4 {
+  border: 1px solid #d35400;
+  padding: 8px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #f6ddc6;
+  color: #d35400;
+  font-size: 15px;
+}
+
+.login-page {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.login-page .login-page__form {
+  border: 1px solid #d2d1d1;
+  border-radius: 15px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+.login-page .login-page__form h1 {
+  color: #d35400;
+  padding-bottom: 10px;
+}
+.login-page .login-page__form .login-page__form-details {
+  padding-bottom: 10px;
+}
+.login-page .login-page__form .login-page__form-details .login-page__form-label {
+  color: #006266;
+  font-size: 18px;
+}
+.login-page .login-page__form .login-page__form-details span {
+  color: #cb0c0c;
+}
+.login-page .login-page__form .login-page__form-details i {
+  color: #006266;
+  padding-left: 3px;
+}
+.login-page .login-page__form .login-page__form-details .login-page__form-input {
+  border: 1px solid #A3CB38;
+  border-radius: 5px;
+  padding: 10px 20px;
+  outline: none;
+  width: 250px;
+}
+.login-page .login-page__form .login-page__form-details-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.login-page .login-page__form .login-page__form-details-2 label {
+  color: #006266;
+}
+.login-page .login-page__form .login-page__form-details-2 a {
+  color: #d35400;
+}
+.login-page .login-page__form .login-page__form-details-2 a:hover {
+  color: #e28446;
+}
+.login-page .login-page__img {
+  margin-right: 20px;
+}
+.login-page .login-page__img img {
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.submit-page {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.submit-page .submit-page__form {
+  border: 1px solid #d2d1d1;
+  border-radius: 15px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+.submit-page .submit-page__form h1 {
+  color: #d35400;
+  padding-bottom: 10px;
+}
+.submit-page .submit-page__form .submit-page__form-details {
+  padding-bottom: 10px;
+}
+.submit-page .submit-page__form .submit-page__form-details .submit-page__form-label {
+  color: #006266;
+  font-size: 18px;
+}
+.submit-page .submit-page__form .submit-page__form-details span {
+  color: #cb0c0c;
+}
+.submit-page .submit-page__form .submit-page__form-details i {
+  color: #006266;
+  padding-left: 3px;
+}
+.submit-page .submit-page__form .submit-page__form-details .submit-page__form-input {
+  border: 1px solid #A3CB38;
+  border-radius: 5px;
+  padding: 10px 20px;
+  outline: none;
+  width: 250px;
+}
+.submit-page .submit-page__form .submit-page__form-details-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.submit-page .submit-page__form .submit-page__form-details-2 label {
+  color: #006266;
+}
+.submit-page .submit-page__form .submit-page__form-details-2 a {
+  color: #d35400;
+}
+.submit-page .submit-page__form .submit-page__form-details-2 a:hover {
+  color: #e28446;
+}
+.submit-page .submit-page__img {
+  margin-right: 20px;
+}
+.submit-page .submit-page__img img {
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */

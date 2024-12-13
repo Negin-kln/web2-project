@@ -29,3 +29,12 @@ button{
         font-size: large;
         color: $labelColor;
 }
+.btn4{
+    border: 1px solid $mainColor;
+    padding: 8px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: $navBgColor;
+    color: $mainColor;
+    font-size: 15px;
+}
