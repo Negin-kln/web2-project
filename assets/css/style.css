@@ -146,6 +146,9 @@ main .main-product__top {
   align-items: center;
   flex-direction: column;
 }
+main .main-product__top .main-product__top-a a {
+  color: #656360;
+}
 main .main-product__top .main-product__top-a a:last-child {
   color: #d35400;
 }
@@ -206,6 +209,9 @@ main .main-about__top {
   align-items: center;
   flex-direction: column;
 }
+main .main-about__top .main-about__top-a a {
+  color: #656360;
+}
 main .main-about__top .main-about__top-a a:last-child {
   color: #d35400;
 }
@@ -242,6 +248,9 @@ main .main-contact__top {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+main .main-contact__top .main-contact__top-a a {
+  color: #656360;
 }
 main .main-contact__top .main-contact__top-a a:last-child {
   color: #d35400;

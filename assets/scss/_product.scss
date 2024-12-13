@@ -4,6 +4,9 @@ main{
         padding-bottom: 30px;
         @include flex ();
         flex-direction: column;
+        .main-product__top-a a{
+            color: $mainColor3;
+        }
         .main-product__top-a a:last-child{
             color: $mainColor;
         }
